@@ -1,6 +1,7 @@
 # Intro-to-Python
 
-Python 
+Python code is both compiled and interpreted
+
 
 ## Working with number & Operators
 print(2+2)
@@ -16,7 +17,9 @@ print("Whatsúp")
 Alwyas type you string in sides quotes
 you can use single or double qoutes when printing a string
 
-# This is a commmennt
+## These are commmennt
+"#" single line comments
+'''Some string'''  multi-line comment
 
 ## Variables
 Must contain letterd, numbers or underscores
@@ -164,6 +167,9 @@ print(cordinates[0])     // this will print 4
 
 corodinates = [(4, 5), (6, 7), (80, 34)]  // Square brackest only used when you have list of Tuples 
 
+You cannot remove items from a tuple.
+Tuples are very memory-efficient.
+Sets must contain unique values.
 
 ## Functions
 Its a block of code that you can package it together with a name and does something, it takes an action. 
@@ -255,6 +261,13 @@ print(monthConversion["Jan"]) // this will pint full name which is January, it g
 
 if you print key that is not in the dictionary it prints none
 
+ ## Handling missing keys in a dictionary:
+using a defaultdict
+checking with an "if key in dictionary" statement, then adding a value
+using the get function
+
+## Objects and Classes
+super() used to get an instance of the parent class
 
 ## Import Libraries
 
